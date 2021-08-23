@@ -1,0 +1,43 @@
+.container{
+    text-align: center;
+}
+
+.formatting {
+    background-color: darkolivegreen;
+    width: 75%;
+    margin: auto;
+    min-height: 100px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 2px hotpink solid;
+    line-height: 2rem;
+}
+img{
+    border: 2px crimson solid;
+    border-radius: 30px;
+}
+a{
+    display: block;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
+
+b,strong,i,em {
+    display: inline-block;
+    margin: auto;
+}
+.quotations{
+    background-color: rgba(100, 51, 19, 0.309);
+    width: 75%;
+    margin: auto;
+    min-height: 100px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 2px hotpink solid;
+    line-height: 2rem;
+}
+address {
+    text-align: center;
+}
