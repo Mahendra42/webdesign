@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Pratice</title>
+    <style>
+        table{
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:black;
+        }
+        table,td,th{
+            border: 2px red solid;
+            border-collapse: collapse;
+        }
+        tr:nth-child(odd){
+            background-color: mediumaquamarine;
+        }
+        tr:nth-child(even){
+            background-color: rgba(146, 109, 153, 0.446);
+        }
+        th{
+            background-color: greenyellow;
+            height: 50px;
+        }
+        td,th{
+            padding: 15px;
+        }
+        tr:hover{
+            background-color: cyan;
+        }
+     
+    </style>
+</head>
+<body>
+    <table>
+        <caption style=" color:magenta;font-size: 30px;">Monthly Savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$ 10000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$ 1000</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>$ 15000</td>
+        </tr>
+        <tr>
+            <td>April</td>
+            <td>$ 13000</td>
+        </tr>
+        <tr>
+            <td>May</td>
+            <td>$ 11200</td>
+        </tr>
+        <tr>
+            <td>June</td>
+            <td>$ 4500</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
